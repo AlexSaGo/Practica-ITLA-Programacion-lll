@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.bttIngresar = new System.Windows.Forms.Button();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtContrasena = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,41 +46,42 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // bttIngresar
             // 
-            this.button1.Location = new System.Drawing.Point(120, 372);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bttIngresar.Location = new System.Drawing.Point(120, 372);
+            this.bttIngresar.Name = "bttIngresar";
+            this.bttIngresar.Size = new System.Drawing.Size(75, 23);
+            this.bttIngresar.TabIndex = 1;
+            this.bttIngresar.Text = "Ingresar";
+            this.bttIngresar.UseVisualStyleBackColor = true;
+            this.bttIngresar.Click += new System.EventHandler(this.bttIngresar_Click);
             // 
-            // textBox1
+            // txtUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(148, 193);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(181, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtUsuario.Location = new System.Drawing.Point(148, 193);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(181, 20);
+            this.txtUsuario.TabIndex = 2;
             // 
-            // textBox2
+            // txtContrasena
             // 
-            this.textBox2.Location = new System.Drawing.Point(148, 284);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(181, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtContrasena.Location = new System.Drawing.Point(148, 284);
+            this.txtContrasena.Name = "txtContrasena";
+            this.txtContrasena.Size = new System.Drawing.Size(181, 20);
+            this.txtContrasena.TabIndex = 3;
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(351, 424);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtContrasena);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.bttIngresar);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Login";
-            this.Text = "Form1";
+            this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -90,8 +91,8 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button bttIngresar;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtContrasena;
     }
 }
