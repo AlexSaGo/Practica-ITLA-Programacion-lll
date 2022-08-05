@@ -1,13 +1,11 @@
 # Practica-ITLA-Programacion-lll
 
-<p>Software para administrar los usuarios de alguna compañia</p>
-
 ------------------------------------------------------------
 # Documentación
 
-<p>El software posee un Splash Screen, un login, y un menu de administracion de usuarios.</p>
-
 <p>Con este software se busca facilitar la gestión de los usuarios, permitiendo a la compañia tener cambios al instante y tambien seguridad a la hora de logearse para utilizar algún otro programa.</p>
+
+<p>El software posee un Splash Screen, un login, y un menu de administración de usuarios.</p>
 
 ------------------------------------------------------------
 #Splash Screen
