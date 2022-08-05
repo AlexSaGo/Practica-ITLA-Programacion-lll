@@ -18,8 +18,8 @@
 <p align = "center">
 <img src = https://user-images.githubusercontent.com/89925494/183192246-4753f8c8-55ce-4c59-b053-f22b2e26f35e.png>
 </p>
-------------------------------------------------------------
 
+------------------------------------------------------------
 #Menu de administración de usuarios
 <p align = "center">
 <img src = https://user-images.githubusercontent.com/89925494/183193432-ff1a3da6-78e7-4584-b3dc-89bb3ec78ec1.png>
