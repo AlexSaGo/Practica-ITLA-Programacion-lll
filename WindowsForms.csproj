@@ -79,6 +79,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Splashscreen.resx">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Usermanage.resx">
       <DependentUpon>Usermanage.cs</DependentUpon>
     </EmbeddedResource>
